@@ -1,0 +1,174 @@
+.delivery-radius-fields-container {
+    margin-bottom: 15px;
+}
+
+.delivery-radius-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: flex-end;
+}
+
+.delivery-radius-row .form-field {
+    margin: 0;
+    flex: 1;
+}
+
+.delivery-radius-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.delivery-radius-row input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.remove-radius-row {
+    height: 40px;
+    padding: 0 15px !important;
+    background-color: #dc3545 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.add-radius-row {
+    margin-top: 10px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+}
+
+.dokan-delivery-radius-fields {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+}
+
+/* New styles for the delivery radius dropdown */
+#your_delivery_radius {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.dokan-form-group + .dokan-form-group {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Postal Code Selection */
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ddd !important;
+    border-radius: 4px;
+    min-height: 150px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    margin-right: 5px;
+    color: #dc3545;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Admin Postal Codes Page */
+.postbox {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.postbox h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+.wp-list-table {
+    margin-top: 15px;
+}
+
+.button-link-delete {
+    color: #dc3545 !important;
+}
+
+.button-link-delete:hover {
+    color: #bd2130 !important;
+}
+
+/* Help Text */
+.help-block {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 0.9em;
+} 
+
+
+div#postal-code-prices {
+    display: grid
+;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 28px;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #ddd !important;
+    border-radius: 3px;
+    min-height: 35px !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 3px 8px;
+    margin: 3px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    margin-right: 5px;
+    color: #dc3545;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+    margin-top: 3px;
+}
+.select2-dropdown {
+    border-color: #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #0073aa;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #e9ecef;
+}
+
